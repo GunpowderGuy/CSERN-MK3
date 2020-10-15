@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+
+    <head>
+        <title>
+            To Dos Manager
+        </title>
+        <link rel="icon" type="image/png" href="img/test.png" >
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+        <style> 
+            body {font-family: 'Roboto', sans-serif;}
+        </style>
+    </head>
+
+    <body class="uk-height-1-1">
+
+
+        <div class="uk-vertical-align uk-text-center uk-height-1-1">
+            <div class="uk-vertical-align uk-text-center uk-height-1-1">
+                
+                <div class="uk-background-primary uk-light uk-padding uk-panel">
+                    <p class="uk-h4"><span>To Dos Manager Login</span></p>
+                </div>
+                
+                <form class="uk-padding" action="/todos/login" method="GET">
+                    <div class="uk-margin">
+                        <div class="uk-inline">
+                            <span class="uk-form-icon" uk-icon="icon: user"></span>
+                            <input placeholder='Usuario' class="uk-input" type="text">
+                        </div>
+                    </div>
+                
+                    <div class="uk-margin">
+                        <div class="uk-inline">
+                            <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: lock"></span>
+                            <input placeholder='Contraseña' class="uk-input" type="password" autofocus>
+                        </div>
+                    </div>
+
+                    <input type="submit" class="uk-button uk-button-secondary" value="Ingresar"/> 
+                </form>
+
+            </div>
+        </div>
+
+    </body>
+</html>
